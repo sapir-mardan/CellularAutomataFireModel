@@ -1,5 +1,12 @@
 # Simulation Of Model Of The Propagation Of A Forest Fire
 
+
+
+https://github.com/sapir-mardan/CellularAutomataFireModel/assets/92859243/9b765d0e-e92c-4a9a-840d-912fb4c7aff5
+
+
+
+
 ### Table of Contents 
 - [Project Description](#project-description)
 - [How It Works](#how-it-works)
@@ -54,6 +61,8 @@ Disclaimer: The system requires a computer with the ability to run computational
 
 ### Usage
 
+*FireModel* includes all functions for running simulations and statistical analysis of steady state.
+
 *Run Simulations*
 
 * To run one simulation, change your current directory to the location of simulation.py. Run the following code in terminal to execute the function “run_simulation” with preferable parameters. The parameters to conclude a steady-state are the ones which were determined most valid.
@@ -66,7 +75,7 @@ The description of arguments required can be found with help(simulation.run_simu
 (In terminal; launch python -> import simulation -> type help(simulation.run_simulation)).
 
 
-* Run multiple simulations run_simulations.py.  Because of a long execution time, the results were added in folder results as full_simulations_results.csv.
+* Run multiple simulations run_simulations.py.  An example of the results were added in folder results as full_simulations_results.csv.
 
 * Run visualisation for a simulation with visualise_simulation.ipynb.
 
