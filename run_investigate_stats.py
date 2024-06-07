@@ -1,4 +1,4 @@
-from  simulation import *
+from  FireModel import *
 
 if __name__ == "__main__":
     analysis_parameters_evaluation_results = []
