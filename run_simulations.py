@@ -1,4 +1,4 @@
-from  simulation import *
+from  FireModel import *
 
 if __name__ == "__main__":
     grid_sizes = [(i, i) for i in range(5, 30)] + [(i, i) for i in range(30, 100, 5)]
