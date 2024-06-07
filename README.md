@@ -66,7 +66,7 @@ The description of arguments required can be found with help(simulation.run_simu
 (In terminal; launch python -> import simulation -> type help(simulation.run_simulation)).
 
 
-* Run multiple simulations run_simulations.py. Because of a long execution time, the results were added in folder results as full_simulations_results.csv.
+* Run multiple simulations run_simulations.py.  Because of a long execution time, the results were added in folder results as full_simulations_results.csv.
 
 * Run visualisation for a simulation with visualise_simulation.ipynb.
 
