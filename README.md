@@ -18,8 +18,6 @@ A Python based project that employs cellular automata to simulate forest fire pr
 
 ## How It Works
 
-## Base Model
-
 This simulation represents a forest fire propagation model on a grid, aiming to explore how model parameters influence the system's dynamics towards achieving a steady state. The grid evolves over time based on the following rules applied at each time step:
 
 1. **Burn-out**: Any cell that is on fire will become empty in the next state.
