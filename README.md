@@ -2,6 +2,7 @@
 
 ### Table of Contents 
 - [Project Description](#project-description)
+- [How It Works](#how-it-works)
 - [Required Technologies](#required-technologies)
 - [Usage](#usage)
 - [License](#license)
@@ -9,6 +10,38 @@
 ### Project Description
 
 A Python based project that employs cellular automata to simulate forest fire propagation, aiming to explore dynamic system behaviour under varied parameters. 
+
+## How It Works
+
+## Base Model
+
+This simulation represents a forest fire propagation model on a grid, aiming to explore how model parameters influence the system's dynamics towards achieving a steady state. The grid evolves over time based on the following rules applied at each time step:
+
+1. **Burn-out**: Any cell that is on fire will become empty in the next state.
+2. **Fire Spread**: Any tree will catch fire if it has at least one neighboring cell on fire.
+3. **Lightning Strike**: A tree will spontaneously catch fire with a probability 'f', independent of its neighbors.
+4. **Tree Growth**: An empty cell will become a tree with a probability 'p'.
+And for the extended model An additional rule introduces rain:
+5. **Burn-out or Rain**: A cell on fire can either become empty or revert to a tree with a probability 'r', simulating rain extinguishing the fire.
+
+The simulation uses four parameters:
+- Tree growth rate ('p')
+- Lightning strike rate ('f')
+- Grid size
+- Number of states (time steps)
+
+## Steady-State Investigation
+
+The goal is to determine conditions under which the system reaches a steady state, defined by:
+- The number of trees and fires remains relatively constant over the last 50 of 300 iterations.
+- Fires caused by spreading (not just by lightning strikes) are consistent, ensuring dynamic stability.
+
+
+### Results and Analysis
+
+The simulation outputs help analyze how varying the parameters 'p', 'f', and the grid size, as well as introducing rain, affect the likelihood and stability of reaching a steady state. This model provides valuable insights into forest fire dynamics and the effectiveness of various fire suppression techniques modeled by the simulation rules.
+
+
 
 ### Required Technologies
 
