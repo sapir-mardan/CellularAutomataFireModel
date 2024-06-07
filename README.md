@@ -1,16 +1,16 @@
 # Simulation Of Model Of The Propagation Of A Forest Fire
 
 ### Table of Contents 
-1. [Project Description](#project-description)
-2. [Required Technologies](#required-technologies)
-3. [Usage](#3._usage)
-4. [License](#license)
+- [Project Description](#project-description)
+- [Required Technologies](#required-technologies)
+- [Usage](#usage)
+- [License](#license)
 
-### 1. Project Description
+### Project Description
 
 A Python based project that employs cellular automata to simulate forest fire propagation, aiming to explore dynamic system behaviour under varied parameters. 
 
-### 2. Required Technologies
+### Required Technologies
 
 * Python 3.11.4 or higher.
 * NumPy library.
@@ -19,7 +19,7 @@ A Python based project that employs cellular automata to simulate forest fire pr
 
 Disclaimer: The system requires a computer with the ability to run computationally intensive tasks for extended durations, as the simulation may require extended processing times.
 
-### 3. Usage
+### Usage
 
 *Run Simulations*
 
@@ -42,6 +42,9 @@ Steady-State Parameters Investigation
 
 * Run investigation to assess the validity of simulation parameters with run_investigate_stats.py. The results were also added in folder results as investigate_parameters_results.csv.
 
-* analysis.ipynb shows the analysis made of results from run_simulations.py and run_investigate_stats.py for scientific report. 
+* analysis.ipynb shows the analysis made of results from run_simulations.py and run_investigate_stats.py for scientific report.
+
+### License
+
 
 
