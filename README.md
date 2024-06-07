@@ -1,7 +1,7 @@
 # Simulation Of Model Of The Propagation Of A Forest Fire
 
 ### Table of Contents 
-1. Project Description
+1. [Project Description](#project-background)
 2. Required Technologies
 3. Usage
 
