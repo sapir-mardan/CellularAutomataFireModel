@@ -3,7 +3,7 @@
 ### Table of Contents 
 1. [Project Description](#project-description)
 2. [Required Technologies](#required-technologies)
-3. [Usage](#usage)
+3. [Usage](#3._usage)
 4. [License](#license)
 
 ### 1. Project Description
