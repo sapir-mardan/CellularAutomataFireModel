@@ -46,5 +46,9 @@ Steady-State Parameters Investigation
 
 ### License
 
+This project is licensed under the MIT License.
+
+Acknowledgments:
+- This project was assigned by the University of Bristol as part of the academic curriculum for the Master’s program in Bioinformatics.
 
 
