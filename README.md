@@ -2,9 +2,7 @@
 
 
 
-https://github.com/sapir-mardan/CellularAutomataFireModel/assets/92859243/9b765d0e-e92c-4a9a-840d-912fb4c7aff5
-
-
+https://github.com/sapir-mardan/CellularAutomataFireModel/assets/92859243/b5b380e4-2dcf-4a92-9174-282a1a9eb340
 
 
 ### Table of Contents 
@@ -77,8 +75,7 @@ The description of arguments required can be found with help(simulation.run_simu
 
 * Run multiple simulations run_simulations.py.  An example of the results were added in folder results as full_simulations_results.csv.
 
-* Run visualisation for a simulation with visualise_simulation.ipynb.
-
+* Run visualisation for a simulation with visualise_simulation.ipynb (such as in the top of this ReadMe and additional graph).
 
 Steady-State Parameters Investigation
 
