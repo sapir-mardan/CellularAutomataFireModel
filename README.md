@@ -33,7 +33,7 @@ The simulation uses four parameters:
 - Grid size
 - Number of states (time steps)
 
-## Steady-State Investigation
+### Steady-State Investigation
 
 The goal is to determine conditions under which the system reaches a steady state, defined by:
 - The number of trees and fires remains relatively constant over the last 50 of 300 iterations.
@@ -46,7 +46,7 @@ The simulation outputs help analyze how varying the parameters 'p', 'f', and the
 
 
 
-### Required Technologies
+## Required Technologies
 
 * Python 3.11.4 or higher.
 * NumPy library.
@@ -55,7 +55,7 @@ The simulation outputs help analyze how varying the parameters 'p', 'f', and the
 
 Disclaimer: The system requires a computer with the ability to run computationally intensive tasks for extended durations, as the simulation may require extended processing times.
 
-### Usage
+## Usage
 
 *FireModel* includes all functions for running simulations and statistical analysis of steady state.
 
@@ -81,7 +81,7 @@ Steady-State Parameters Investigation
 
 * analysis.ipynb shows the analysis made of results from run_simulations.py and run_investigate_stats.py for scientific report.
 
-### License
+## License
 
 This project is licensed under the MIT License.
 
