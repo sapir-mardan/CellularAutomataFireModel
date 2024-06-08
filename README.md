@@ -23,7 +23,7 @@ This simulation represents a forest fire propagation model on a grid, aiming to 
 1. **Burn-out**: Any cell that is on fire will become empty in the next state.
 2. **Fire Spread**: Any tree will catch fire if it has at least one neighboring cell on fire.
 3. **Lightning Strike**: A tree will spontaneously catch fire with a probability 'f', independent of its neighbors.
-4. **Tree Growth**: An empty cell will become a tree with a probability 'p'.
+4. **Tree Growth**: An empty cell will become a tree with a probability 'p'.  
 And for the extended model An additional rule introduces rain:
 5. **Burn-out or Rain**: A cell on fire can either become empty or revert to a tree with a probability 'r', simulating rain extinguishing the fire.
 
