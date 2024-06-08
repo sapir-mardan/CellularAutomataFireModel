@@ -64,7 +64,7 @@ Disclaimer: The system requires a computer with the ability to run computational
 * To run one simulation, change your current directory to the location of simulation.py. Run the following code in terminal to execute the function “run_simulation” with preferable parameters. The parameters to conclude a steady-state are the ones which were determined most valid.
 
   ```bash
-	python -c "from simulation import run_simulation; run_simulation(grid size, f, p, r, num_grid_states, visualise)" --simulation.py
+	python -c "from FireModel import run_simulation; run_simulation(grid size, f, p, r, num_grid_states, visualise)" --FireModel.py
   ```
 
 The description of arguments required can be found with help(simulation.run_simulation).
